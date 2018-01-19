@@ -1,0 +1,261 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{font-family: "Verdana";}
+.fl{float: left;}
+.fr{float: right;}
+.cb{clear: both;}
+.hide{display: none !important; }
+.visible{display: block !important;}
+.visibleAlways{display: block !important;}
+.cf { zoom: 1; }
+.cf:before,
+.cf:after { content: ""; display: table; }
+.cf:after { clear: both; }
+.error{color: red; font-weight: bold; margin-top: 30px;}
+/* header */
+#header{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 85px;
+    z-index: 99999;
+    background-color: #1f1f1f;
+    background: #000 url('../../assets/materials/logo.png') no-repeat 20px center;
+}
+#header .logoutWrapp{
+    margin-right: 30px;
+    margin-top:20px;
+}
+/* /header */
+.relAtive{position: relative;}
+/* sidebar */
+#content{margin-top: 85px; }
+#sideBar{
+    width: 230px;
+    position: fixed;
+    color: #BDBDBD;
+    background-color: #111111;
+    height: 100vh;
+}
+#sideBar .sideBarParent ul{display: none;}
+#sideBar .sideBarParent li{list-style: none; position: relative;}
+
+#sideBar .sideBarParent a{
+    display: block;
+    text-decoration: none;
+    color: #BDBDBD;
+    cursor: pointer; 
+}
+#sideBar .sideBarParent .title{
+    border-bottom: 1px solid #484848;
+    height: 42px;
+    line-height: 42px;
+    padding-left: 25px;
+    width: 205px;
+    position: relative;
+    font-size: 14px;
+}
+#sideBar .sideBarParent .title.current{
+    background-color: #D64635;
+    color: #fff;
+}
+/* /sidebar */
+
+
+/* /FORMS */
+#main{
+    width: 750px;
+    float: left;
+    position: relative;
+    background-color: #fff;
+    margin-left: 260px;
+}
+/* /LANG BAR */
+
+/* FORM TABLE */
+.formTable{
+    margin-top: 10px;
+    width: 750px;
+}
+.formTable.short{width: 300px;}
+.formTable .titleStyle{
+    font-size: 16px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.formTable .submitStyle{
+    width: 147px;
+    height: 58px;
+    border: none;
+    background: transparent url('../../materials/logOut.png') no-repeat left;
+    cursor: pointer;
+}
+.logoutStyle{
+    width: 22px;
+    height: 29px;
+    border: none;
+    background: transparent url('../../assets/materials/logOut.png') no-repeat left;
+    cursor: pointer;
+}
+.formTable .submitStyle:hover{
+
+}
+.formTable .saveStyle{
+    padding: 0px 20px 0px 20px;
+    font-size: 14px;
+    line-height: 30px;
+    background-color: #f73339;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    display: block;
+    text-decoration: none;
+    outline: none;
+    font-family: 'geo_font';
+}
+.formTable .submitStyleLink{
+    width: 50px;
+    padding: 0px 20px 0px 20px;
+    font-size: 14px;
+    line-height: 30px;
+    background-color: #f73339;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    display: block;
+    text-decoration: none;
+}
+.formTable .inputStyle{
+    width: 750px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    border: 1px solid silver;
+}
+.formTable .textareaStyle{
+    width: 750px !important;
+    height: 130px;
+    font-size: 14px;
+    border: 1px solid silver;
+    display: block;
+}
+
+hr{margin-top: 30px;}
+.parenSelector{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 750px;
+}
+.filetyle{padding-bottom: 10px;}
+.delete{
+    font-size: 14px;
+    text-decoration: none;
+    color: #D64635;
+    margin-right: 10px;
+}
+.delete:hover{text-decoration: underline;}
+
+
+.formTableList{ 
+    margin-top: 30px;
+    border: 1px solid silver;
+    border-left: none;
+    border-top: none;
+    font-size: 14px;
+}
+.formTableList td{
+    border: 1px solid silver;
+    border-right: none;
+    border-bottom: none;
+    padding: 5px;
+}
+.formTableList .tr1{background-color: #f5f5f5;}
+.formTableList a{color: silver; text-decoration: none; font-size: 12px;}
+.formTableList.noMargin{margin-top: 0px;}
+.handle {margin-bottom: 10px; background-color: #BDBDBD; height: 27px; width: 25px; text-align: center; line-height: 33px; cursor: move;}
+.handle.sliderAdd{height: 62px; line-height: 67px;}
+.handleMain {top: 10px; left: 2px;  padding: 2px; cursor: move; position: absolute; z-index: 3;}
+.editIco{top: 10px; left: 2px;  padding: 2px; position: absolute; z-index: 3;}
+.sliderThumb{width: 50px; height: 50px; overflow: hidden;}
+/* /FORM TABLE */
+
+
+
+/* AUTH */
+.authForm{
+    width: 465px;
+    height: 285px;
+    margin: 0 auto;
+    background-color: #f5f5f5;
+    font-family: Myriad Pro,Verdana;
+    padding: 0px;
+}
+
+.authForm .inputStyle{
+    width: 254px;
+    height: 33px;
+    line-height: 33px;
+    font-size: 14px;
+    border: 2px solid #d7d7d7;
+    outline: none;
+    padding-left: 10px;
+}
+
+.authForm .rememberMe{
+    font-size: 14px;
+    color: #414141;
+}
+
+.authForm .submitStyle{
+    width: 60px;
+    height: 30px;
+    font-size: 14px;
+    line-height: 30px;
+    background-color: #fa3031;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.direct{
+    margin-bottom: 10px;
+}
+
+.buttonGreen{
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    background-color: #D64635;
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    font-family: verdana;
+    display: block;
+    margin-bottom: 30px;
+    float: left;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.authFirstBlock{
+    height: 50px;
+    background-color: #fa3031;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.formTitle{
+    font-size: 14px;
+    color: #777777;
+    font-weight: bold;
+    text-align: right;
+    padding-right: 20px;
+}
+/* */
+

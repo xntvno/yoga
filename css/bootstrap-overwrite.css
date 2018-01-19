@@ -1,0 +1,60 @@
+.x-navbar{
+    background-color: #533e89 !important;
+}
+
+.carousel-item{
+  height: 400px !important;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.x-lead{
+    color: #cf6daa;
+    font-weight: bold;
+}
+.x-lead-follow{
+    color: #34303e;
+}
+
+.x-h3{
+    font-size: 18px;
+    font-weight: bold;
+}
+.x-green{
+    color: #c8df85;
+}
+.x-blue{
+    color: #6b52b0;
+}
+.x-purple{
+    color: #ce6aa6;
+}
+.x-black{
+    color: #000;
+}
+.x-bg-silver{
+    background-color: #e9ecef;
+}
+.x-padding{
+    padding: 30px;
+    box-sizing: border-box;
+}
+.x-padding-top-bottom{
+    padding: 30px 0px;
+}
+
+.card-body > h4{
+    color: #cf6daa;
+}
+.card-footer > .alert{
+    text-align: center;
+}
+.card-footer > .alert-success{
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.card-footer > .alert-success:hover{
+    opacity: 0.6;
+    transition: all 0.3s;
+}
